@@ -1,11 +1,10 @@
-@import "/sass/main/section1";
 @import "section1";
-
+@import "./main/section1";
 
 // $var
 $color: #000000;
 $accent-color: #da21ea;
-
+$white: white;
 // @mixin
 
 
