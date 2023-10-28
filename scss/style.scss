@@ -26,9 +26,10 @@ $white: white;
 
 body {
 	// *DON'T FORGET ABOUT FONTS
-	font-family: 'Roboto', sans-serif;
-	font-size: 60px;
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
 	color: $color;
+	font-weight: 400;
 	background-image: url(../img/bg.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;

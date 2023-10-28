@@ -1,4 +1,3 @@
-<!-- Объявления типа документа HTML5 -->
 <!DOCTYPE html>
 <!-- Установка русского языка -->
 <html lang="ru">
@@ -38,17 +37,14 @@
 	<!-- Использовать последнюю версию IE -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-	<!-- For external styles -->
-	<link rel="stylesheet" href="./css/reset.css">
-	<link rel="stylesheet" href="./css/style.min.css">
-
 	<!-- Google шрифты -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link rel="preload" as="style" href="#" />
+	<link rel="stylesheet" href="#" media="print" onload="this.media='all'" />
 
 	<!-- Локальные шрифты -->
-	<link rel="stylesheet" href="#">
+	<link rel="preload" href="./fonts/style.css" as="style" />
+	<link rel="stylesheet" href="./fonts/style.css" media="print" onload="this.media='all'" />
 
 	<!-- Внешние стили -->
 	<link rel="stylesheet" href="./css/reset.css">
