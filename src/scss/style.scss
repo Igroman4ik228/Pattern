@@ -26,15 +26,14 @@ $white: white;
 body {
 	// DON'T FORGET ABOUT FONTS
 	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
+	font-size: 60px;
 	color: $color;
 	background-image: url(../img/bg.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
-
 }
 
-.conteiner {
+.container {
 	max-width: 1440px;
 	margin: 0 auto;
 	padding: 0 15px;
