@@ -25,7 +25,7 @@ $white: white;
 
 body {
 	// DON'T FORGET ABOUT FONTS
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-size: 14px;
 	color: $color;
 	background-image: url(../img/bg.jpeg);
@@ -34,8 +34,10 @@ body {
 
 }
 
-.conteiner {
+.container {
 	max-width: 1440px;
 	margin: 0 auto;
 	padding: 0 15px;
 }
+
+.header {}
