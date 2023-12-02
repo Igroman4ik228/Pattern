@@ -15,15 +15,9 @@ $white: white;
 
 
 // ----------- //
-.btn-reset {
-	border: none;
-	background: transparent;
-}
-
 .hide {
 	display: none;
 }
-
 
 body {
 	// *DON'T FORGET ABOUT FONTS
@@ -34,6 +28,7 @@ body {
 	background-image: url(../img/bg.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
+
 	// Sticky footer
 	min-height: 100vh;
 	display: flex;
