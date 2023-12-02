@@ -1,4 +1,9 @@
-@import "section1";
+@import "./sections/header";
+@import "./sections/footer";
+
+// Sections
+@import "./sections/section1";
+
 
 // $var
 $color: #000000;
@@ -6,7 +11,6 @@ $accent-color: #da21ea;
 $white: white;
 
 // @mixin
-
 
 
 
@@ -20,9 +24,6 @@ $white: white;
 	display: none;
 }
 
-.flex {
-	display: flex;
-}
 
 body {
 	// *DON'T FORGET ABOUT FONTS
@@ -33,11 +34,18 @@ body {
 	background-image: url(../img/bg.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	font-style: italic;
+	// Sticky footer
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer {
+	margin-top: auto;
 }
 
 .container {
-	max-width: 1440px;
+	max-width: 1470px;
 	margin: 0 auto;
 	padding: 0 15px;
 }
